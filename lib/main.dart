@@ -1,3 +1,4 @@
+import 'package:cat_and_dog_classifier/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,6 +15,6 @@ class cat_and_dog_Classifier extends StatefulWidget {
 class _cat_and_dog_ClassifierState extends State<cat_and_dog_Classifier> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const MaterialApp(home: SplashScreen());
   }
 }
