@@ -1,4 +1,4 @@
-import 'package:cat_dog_calssifier/splash_services.dart';
+import 'package:cat_and_dog_classifier/splash_services.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -31,9 +31,7 @@ class _SplashScreenState extends State<SplashScreen> {
               decoration: BoxDecoration(color: Colors.white),
               child: Image.asset('assets/dog2.jpg'),
             ),
-            SizedBox(
-              height: 20,
-            ),
+            SizedBox(height: 20),
             Container(
               color: const Color.fromARGB(255, 199, 175, 101),
               child: Row(
@@ -47,19 +45,16 @@ class _SplashScreenState extends State<SplashScreen> {
                     "og",
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
                   ),
-                  SizedBox(
-                    width: 5,
-                  ),
+                  SizedBox(width: 5),
                   Text(
                     "&",
                     style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontSize: 50,
-                        color: Colors.white),
+                      fontWeight: FontWeight.bold,
+                      fontSize: 50,
+                      color: Colors.white,
+                    ),
                   ),
-                  SizedBox(
-                    width: 5,
-                  ),
+                  SizedBox(width: 5),
                   Text(
                     "C",
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 50),
