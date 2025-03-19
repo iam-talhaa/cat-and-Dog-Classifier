@@ -81,7 +81,9 @@ class _HomeScreenState extends State<HomeScreen> {
             B_height: 45.0,
             B_text_color: Colors.white,
             B_width: 140.0,
-            ontap: () {},
+            ontap: () {
+              print("object");
+            },
           ),
           const SizedBox(height: 10),
           Custom_button(
@@ -90,7 +92,9 @@ class _HomeScreenState extends State<HomeScreen> {
             B_height: 45.0,
             B_text_color: Colors.white,
             B_width: 140.0,
-            ontap: () {},
+            ontap: () {
+              print('object');
+            },
           ),
         ],
       ),
